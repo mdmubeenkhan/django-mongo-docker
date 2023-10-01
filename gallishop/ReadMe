@@ -16,3 +16,10 @@ To use docker
     sudo docker login -u mdmubeenkhan #--for password use the Access token generated from dockerhub
     sudo docker image push mdmubeenkhan/gallishop-mongo:latest
 5. To download docker image = docker pull mdmubeenkhan/gallishop-mongo
+
+
+RUN in container environment
+==================================
+sudo docker pull mdmubeenkhan/gallishop-mongo
+sudo docker pull mongo
+sudo docker-compose up
